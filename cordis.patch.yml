@@ -1,0 +1,3 @@
+- insert:
+    - id: deai-audit-panel
+      name: 'dsh-local-deai-audit'

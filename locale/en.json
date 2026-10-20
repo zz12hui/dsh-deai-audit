@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Copy De-AI Auditor",
+    "description": "Conversation tool that scores AI-flavored Chinese copy, flags sentences, and suggests rewrites; configurable genres, word lists and weights."
+  }
+}
