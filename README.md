@@ -85,6 +85,19 @@ AI 味分数：52.3/100（一眼 AI，必须重写）　文体：简历 / 述职
 
 ### 4.2 安装
 
+命令行走 profile 的插件管理器安装（DSH 桌面版一般用 `desktop`，dsh web 用 `web`）：
+
+```bash
+dsh plugin --profile desktop add github:zz12hui/dsh-deai-audit
+```
+
+> DSH 桌面版正在运行时，命令行不会改应用的 profile：先退出桌面版再执行，或等上架后在市场里一键安装。
+
+装完**重启 DSH**（关闭窗口含托盘退出 → 重开），然后说一句「审一下这段文案」验证：助手应该直接调用 `deai_audit`，贴出分数、六维和打标句。
+
+<details>
+<summary>手动安装（旧版 / 离线环境）</summary>
+
 ```bash
 git clone https://github.com/zz12hui/dsh-deai-audit.git
 ```
@@ -98,7 +111,9 @@ git clone https://github.com/zz12hui/dsh-deai-audit.git
          name: 'dsh-local-deai-audit'
    ```
 
-3. **重启 DSH**，然后说一句「审一下这段文案」验证。助手应该直接调用 `deai_audit`，贴出分数、六维和打标句。
+3. 重启 DSH 后同样用上面那句话验证。
+
+</details>
 
 ## 5. 两个工具
 
