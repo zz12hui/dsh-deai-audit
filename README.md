@@ -212,6 +212,14 @@ dsh-deai-audit/
 
 ---
 
+## 相关项目
+
+本仓库是六维版独立插件。评分规则、词表、配置都在本仓库里，装它一个就能用，不依赖别的仓库。
+
+七维版加 skill 套件是另一个项目：[dsh-local-writing-suite](https://github.com/zz12hui/dsh-local-writing-suite)。它多出 fiction 体裁（38 条句式规则、blocking 门禁）和写作流程。
+
+两者注册的工具同名（`deai_audit`、`deai_audit_config`），同一个 profile 里只能装其中一个。换装就是停用另一个，不需要删仓库。
+
 ## 赞赏与联系
 
 如果这个项目帮到你，欢迎请我喝杯咖啡。有问题也可以直接加微信。
